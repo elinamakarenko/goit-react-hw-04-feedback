@@ -1,0 +1,27 @@
+h2 {
+    margin: 0;
+
+  }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.feedbackList {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedbackItem {
+font-size: 18px;
+}
+
+.feedbackItem:not(:last-child){
+    margin-bottom: 5px;
+}

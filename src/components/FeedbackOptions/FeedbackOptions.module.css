@@ -1,0 +1,29 @@
+h2 {
+    margin: 0;
+  }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.buttonList {
+display: flex;
+margin-bottom: 20px;
+}
+
+.button {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.buttonItem:not(:last-child){
+    margin-right: 10px;
+}
